@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;700;900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -251,4 +253,67 @@ h2.title{
     font-weight: 400;
     line-height: 43px;
     text-align: center;
+}
+
+.vebinar{
+    padding: 85px 0 75px 0;
+}
+.vebinar .vebinar_img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.vebinar .first_sent{
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.vebinar .second_sent{
+    text-transform: uppercase;
+    margin-top: 25px;
+    color: #299CBD;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.vebinar .third_sent{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+footer{
+    height: 169px;
+    background-color: #1A1A1A;
+}
+.footer_text{
+    padding-top: 57px;
+    display: block;
+    text-align: center;
+}
+.footer_text_second {
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+.footer_text_first{
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-decoration: underline;
 }
